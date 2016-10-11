@@ -13,7 +13,7 @@ The purpose of this day project is practice setting up an HTML/CSS Site and mani
 
 * When you are ready, set up your Angular environment. Don't forget the CDN and the app.js file.
 
-* For every different function you would like to create, set up a new separate directive and set up the link function in each. By keeping this process modular, you will benefit when it comes to learning React in a few weeks.
+* For every different function you would like to create, set up a new separate directive and set up the link function in each. You will need to take the html content out of the index.html file and put it into an html template that is associated with the directive. By keeping this process modular, you will benefit when it comes to learning React in a few weeks.
 
 * I am going to leave styling and DOM manipulation completely up to you. I am merely providing you with ideas and suggestions. So please, make use of Angular to accomplish whatever it is you would like to do to this site. And most importantly have fun!
 
