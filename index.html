@@ -1,17 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="vacaApp">
   <head>
     <meta charset="utf-8">
     <title>JavaScript DOM Manipulation Practice</title>
     <link rel="stylesheet" href="styles.css" >
     <script src="https://use.fontawesome.com/b4ccb25300.js"></script>
   </head>
-  <body>
+  <body ng-controller="mainCtrl">
+
+
+
     <div class="container">
+      <dir-name></dir-name>
+      <ui-view></ui-view>
+
+
+<!-- <myh1-dir></myh1-dir> -->
+
+
       <div class="headtext">
         <h1>Vacation Destinations of the World</h1>
         <button class="scam" type="button">CLICK HERE</button>
         <i class="fa fa-bars fa-2x menu"></i>
+
 
         <h2><i class="fa fa-arrows-v"></i> Useful Links</h2>
         <a href="#">Vacation Planning</a>
@@ -23,16 +34,25 @@
       <div class="linkbox">
         <i class="fa fa-arrow-left fa-3x"></i>
         <div class="box">
-          <img src="images/cancun.jpg" />
+          <img src="images/coffee.jpg" />
         </div>
         <div class="box">
-          <img src="images/hawaii-art.jpg" />
+          <img src="images/headphones.jpg" />
         </div>
         <div class="box">
-          <img src="images/nyc.jpeg" />
+          <img src="images/typewriter.jpg" />
         </div>
         <i class="fa fa-arrow-right fa-3x"></i>
       </div>
     </div>
+
+
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+    <script src="./controllers/mainCtrl.js"></script>
+    <script src="./server/mainServ.js"></script>
   </body>
 </html>
